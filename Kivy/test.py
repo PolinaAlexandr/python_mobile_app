@@ -29,7 +29,7 @@ class CalculatorApp(App):
 
         self.result = TextInput(
             text = "", readonly = True, font_size = 25,
-            size_hint = [1,.75], background_color = [2,2,2,.8])
+            size_hint = [1,.75], background_color = [1,1,1,.7])
         root.add_widget(self.result)
 
         allButtons = GridLayout(cols = 5)
