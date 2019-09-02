@@ -1,0 +1,5 @@
+venv/
+Kivy/venv/
+.idea
+BeeWare
+__pycache__/
